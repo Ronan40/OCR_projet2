@@ -190,7 +190,7 @@ li p{
 
     #droite{
         width: auto;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     li p{
@@ -206,26 +206,44 @@ li p{
     }
 
     #gauche{
-        background-color: white;
+        width: auto;
+        height: auto;
+    }
+
+    .title_left{
+        padding: 10px;
+        font-size: 25px;
+        margin-top: -50px;
+    }
+
+    .li_left{ 
+        font-size: 20px;
+        margin-bottom: -10%;
+        margin-top: -15%;
+        margin-left: 18%;
+        padding-right: 20%;
+        text-align: center;
     }
 
     #contact{
-      display: none;
+      margin-bottom: -20%;
     }
 
     #propos{
-        display: none;
+        margin-bottom: -65%;
     }
 
-    #loisirs{
-        display: none;
+    .p_propos{
+        font-size: 20px;
+        margin-top: -5%;
     }
 
-    img{
-        margin-bottom: -150px;
-        margin-top: 20%;
-        border: none;
+    #logo{
+        font-size: 20px;
+        margin-left: 3%;
     }
+
+    
 }
 
 @media screen and (max-width: 599px)
@@ -236,7 +254,7 @@ li p{
 
     #droite{
         width: auto;
-        font-size: small;
+        font-size: 14px;
     }
 
     ul{
@@ -253,24 +271,35 @@ li p{
     }
 
     #gauche{
-        background-color: white;
+        width: auto;
+        height: auto;
+    }
+
+    .title_left{
+        padding: 5px;
+        font-size: 20px;
+        margin-top: -30px;
+    }
+
+    .li_left{ 
+        font-size: 17px;
+        margin-bottom: -10%;
+        margin-top: -15%;
+        margin-left: 18%;
+        padding-right: 20%;
+        text-align: center;
     }
 
     #contact{
-        display: none;
+        margin-bottom: -15%;
     }
 
     #propos{
-        display: none;
+        margin-bottom: -55%;
     }
 
-    #loisirs{
-        display: none;
+    #logo{
+        font-size: 15px;
     }
 
-    img{
-        margin-left: 200%;
-        margin-top: 50%;
-        border: none;
-    }
 }
