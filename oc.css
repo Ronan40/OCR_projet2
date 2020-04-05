@@ -26,7 +26,6 @@ i{
 }
 
 #gauche{
-     
      width: 20%;
      background-color: #FFC400;
 }
@@ -108,7 +107,6 @@ h4{
 }
 
 #devel{
-    display: inline-block;
     border-bottom: 1.5px solid #FFC400;
     padding-bottom: 2px;   
 }
@@ -193,6 +191,10 @@ li p{
         font-size: 18px;
     }
 
+    .title_right{
+      max-width: 95%;
+    }
+
     li p{
         padding-right: 10%;
     }
@@ -257,9 +259,12 @@ li p{
         font-size: 14px;
     }
 
-    ul{
-        margin: 0;
-        padding: 0;
+    .title_right{
+        max-width: 95%;
+      }
+
+      li p{
+        padding-right: 10%;
     }
 
     h1{
@@ -300,6 +305,7 @@ li p{
 
     #logo{
         font-size: 15px;
+        margin-left: 3%;
     }
 
 }
