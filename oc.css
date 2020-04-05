@@ -210,6 +210,9 @@ li p{
     #gauche{
         width: auto;
         height: auto;
+        text-align: center;
+        padding-top: 40px;
+
     }
 
     .title_left{
@@ -245,7 +248,11 @@ li p{
         margin-left: 3%;
     }
 
-    
+    img{
+       width: 160px;
+       height: auto;
+       margin: 0 auto 0 auto;
+    }    
 }
 
 @media screen and (max-width: 599px)
@@ -308,4 +315,9 @@ li p{
         margin-left: 3%;
     }
 
+    img{
+        width: 160px;
+       height: auto;
+       margin: 0 auto 0 auto;
+    }
 }
